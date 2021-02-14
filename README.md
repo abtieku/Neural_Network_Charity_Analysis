@@ -1,7 +1,7 @@
 # Neural Network Charity Analysis
 
 ## Overview
-The purpose of this analysis is to assist Alphabet Soup in its review of charities who have received their donations. We know that some of them are not successful. We would like to be able to predict which ones are poor prospects, so we know not to donate to them in the future.
+The purpose of this analysis is to assist Alphabet Soup in its review of charities who have received their donations. We know that some charities are not successful. We would like to be able to predict which ones are poor prospects, so we know not to donate to them in the future.
 
 This analysis used a charity data csv file containing information about each charity which received donations from Alphabet Soup.
 
@@ -45,7 +45,7 @@ Here is how I tried to optimize the model:
 - **Attempt 3:** Removed columns and increased the epochs:
   - I removed the STATUS and ASK_AMT fields, thinking that Status was not relevant because so few were inactive and Ask Amount may contain outliers. I increased the epochs from 50 to 100. It did not increase the accuracy.
 
-	  ![](./Resources/pic4.png)  
+	![](./Resources/pic4.png)  
 
 
 ## Summary
