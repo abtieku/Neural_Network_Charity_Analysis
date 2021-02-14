@@ -42,11 +42,11 @@ Here is how I tried to optimize the model:
 
 ![](./Resources/pic3.png)  
 
-- **Attempt 3:** Removed columns and increased the epochs:
+- **Attempt 3:** Removed columns and increased the epochs
   - I removed the STATUS and ASK_AMT fields, thinking that Status was not relevant because so few were inactive and Ask Amount may contain outliers. I increased the epochs from 50 to 100. It did not increase the accuracy.
 
 ![](./Resources/pic4.png)  
 
 
 ## Summary
-I was not able to achieve the target model performance of 75% accuracy. In this example, I would like to recommend a logistic regression model instead because much of the data is categorical. The logistic regression model predicts the value of a dependent variable using one or more independent variables, and will mathematically determine the probability of belonging to one of the two groups. This model is used by banks to determine whether a person does or does not qualify for a credit card, and I believe it would work well here.
+I was not able to achieve the target model performance of 75% accuracy. In this example, I would like to recommend a logistic regression model instead because much of the data is categorical. The logistic regression model predicts the value of a dependent variable using one or more independent variables, and will mathematically determine the probability of belonging to one of the two groups. This model is used by banks to determine whether a person does or does not qualify for a credit card. I believe it would work well here.
